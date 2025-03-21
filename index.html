@@ -12,7 +12,15 @@
               window._MODERNJS_ROUTE_MANIFEST = {"routeAssets":{"main":{"chunkIds":["builder-runtime","lib-react","lib-polyfill","lib-router","vendors-node_modules_pnpm_modern-js_runtime_2_64_2__types_react-dom_18_3_5__types_react_18_3_-41a563","main"],"assets":["static/js/builder-runtime.js","static/js/lib-react.js","static/js/lib-polyfill.js","static/js/lib-router.js","static/js/vendors-node_modules_pnpm_modern-js_runtime_2_64_2__types_react-dom_18_3_5__types_react_18_3_-41a563.js","static/js/main.js"],"referenceCssAssets":[]},"page":{"chunkIds":["vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a","src_lib_thriftNew_index_ts-src_lib_thriftNew_print_ts","page"],"assets":["static/css/async/vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a.css","static/js/async/vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a.js","static/js/async/src_lib_thriftNew_index_ts-src_lib_thriftNew_print_ts.js","static/js/async/page.js","static/css/async/page.css"],"referenceCssAssets":["static/css/async/vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a.css","static/css/async/page.css"]},"tools/page":{"chunkIds":["vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a","src_lib_thriftNew_index_ts-src_lib_thriftNew_print_ts","tools/page"],"assets":["static/css/async/vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a.css","static/js/async/vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a.js","static/js/async/src_lib_thriftNew_index_ts-src_lib_thriftNew_print_ts.js","static/js/async/tools/page.js","static/css/async/tools/page.css"],"referenceCssAssets":["static/css/async/vendors-node_modules_pnpm_mui_material_6_4_8__emotion_react_11_14_0__types_react_18_3_18_reac-c07f7a.css","static/css/async/tools/page.css"]}}};
             })();
           </script><script defer src="/static/js/lib-react.js"></script><script defer src="/static/js/lib-polyfill.js"></script><script defer src="/static/js/lib-router.js"></script><script defer src="/static/js/vendors-node_modules_pnpm_modern-js_runtime_2_64_2__types_react-dom_18_3_5__types_react_18_3_-41a563.js"></script><script defer src="/static/js/main.js"></script></head>
-
+<script>
+  (function () {
+    const redir = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redir && redir !== location.href) {
+      history.replaceState(null, null, redir);
+    }
+  })();
+</script>
 <body>
   <div id="root"><!--<?- html ?>--></div>
   
