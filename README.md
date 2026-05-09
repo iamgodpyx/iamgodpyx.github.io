@@ -34,6 +34,12 @@ Build the app for GitHub Pages:
 pnpm build:github-pages
 ```
 
+Default GitHub Pages base path:
+
+```bash
+/
+```
+
 Preview the production build locally:
 
 ```bash

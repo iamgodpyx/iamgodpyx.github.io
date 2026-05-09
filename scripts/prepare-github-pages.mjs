@@ -9,7 +9,7 @@ const output404Path = path.join(distDir, "404.html");
 const noJekyllPath = path.join(distDir, ".nojekyll");
 
 const githubPagesBasePath =
-  process.env.GITHUB_PAGES_BASE_PATH || "/thrift-to-ts-online";
+  process.env.GITHUB_PAGES_BASE_PATH || "/";
 const normalizedGitHubPagesBasePath =
   githubPagesBasePath === "/"
     ? "/"
